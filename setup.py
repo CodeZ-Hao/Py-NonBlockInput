@@ -7,11 +7,13 @@ if os.path.exists("README.md"):
 
 setup(
     name='NonBlockInput',
-    version='1.0.0',
+    version='1.0.1',
     author='hao.zeng',
     author_email='zh66920164@outlook.com',
     license='MIT',
     description='This is a non-blocking input library',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     package_dir={"": "."},
     packages=['nbck_input'],
     include_package_data=True,

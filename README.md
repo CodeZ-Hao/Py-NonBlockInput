@@ -17,6 +17,12 @@
 pip install NonBlockInput-1.0.0-py3-none-any.whl
 ```
 
+或者直接使用pip安装：
+
+```shell
+pip install NonBlockInput
+```
+
 ## 使用
 
 ### read_line：行输入方法
