@@ -71,7 +71,7 @@ class BaseInput:
         b = b if isinstance(b, bytes) else bytes([b])
         return b == Enter.ansi
 
-    def read_input(self, timeout: float = 0, time_seq: float = 0.1, echo: bool = True, pre_func: callable = None) -> str:
+    def read_input(self, timeout: float = 0, time_seq: float = 0.001, echo: bool = True, pre_func: callable = None) -> str:
         """
         ### 函数功能:
             读取用户输入，并返回bytes类型数据，注意：不支持中文输入！
